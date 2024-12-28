@@ -1,0 +1,31 @@
+@use "../../styles/utils/media" as md;
+
+footer {
+  background-color: var(--hdr-bckg-color);
+  padding: 20px 0;
+}
+
+.restrictions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.payMethod {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+
+  @include md.tablet {
+    flex-wrap: nowrap;
+  }
+
+  & img {
+    width: 150px;
+  }
+}
+.rights p {
+  color: white;
+  text-align: center;
+}

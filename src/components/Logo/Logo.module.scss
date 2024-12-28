@@ -1,0 +1,21 @@
+@use "../../styles/utils/media" as md;
+
+.logo {
+  color: var(--hdr-link-color);
+  transition: var(--transition-duration);
+  line-height: 1;
+
+  @include md.hover {
+    transform: scale(1.1);
+  }
+
+  & img {
+    width: 200px;
+  }
+
+  @include md.tablet {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,53 @@
+@use "../../styles/utils/media" as md;
+
+.header {
+  padding: 10px 0;
+  background-color: var(--hdr-bckg-color);
+  width: 100%;
+  @include md.desktop {
+    padding: 20px 0;
+  }
+}
+
+.hdWrap {
+  display: flex;
+  align-items: center;
+
+  @include md.desktop {
+    justify-content: space-between;
+  }
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.socialLink {
+  width: 40px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-accent);
+  border-radius: 10px;
+  transition: all 0.3s;
+  outline: transparent;
+  fill: var(--color-accent);
+}
+
+.socialLink:hover,
+.socialLink:focus {
+  fill: var(--color-light);
+  border: 2px solid var(--color-light);
+}
+
+.socialIcon {
+  color: var(--color-accent);
+
+  &:hover {
+    color: var(--color-light);
+  }
+}

@@ -1,0 +1,9 @@
+@use './mixins' as mx;
+
+.visually-hidden {
+  @include mx.visually-hidden;
+}
+
+.accent {
+  color: var(--color-accent);
+}

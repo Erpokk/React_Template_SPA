@@ -1,0 +1,18 @@
+@use "../../styles/utils/media" as md;
+
+.container {
+  position: relative;
+  max-width: var(--container-width-sm);
+  padding-inline: var(--container-padding-x-sm);
+  margin: 0 auto;
+
+  @include md.tablet {
+    max-width: var(--container-width-md);
+    padding-inline: var(--container-padding-x-md);
+  }
+
+  @include md.desktop {
+    max-width: var(--container-width-lg);
+    padding-inline: var(--container-padding-x-lg);
+  }
+}

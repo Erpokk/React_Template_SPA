@@ -1,0 +1,42 @@
+:root {
+  --color-dark: #0c1b28;
+  --color-light: #ffffff;
+
+  --color-accent: #f1c40e;
+  --color-gray: #ccc;
+  --color-gray-alt: #898989;
+
+  --hdr-bckg-color: #0c1b28;
+  --hdr-link-color: #fff;
+  --burger-border: 1px solid var(--hdr-link-color);
+
+  --btn-cl-accent: #f1c40e;
+
+  --border: 1px solid var(--color-dark);
+  --border-radius-lg: 18px;
+  --border-radius-md: 12px;
+  --border-radius-sm: 6px;
+
+  // --background-patter:
+
+  // --shadow: 0 5px 0 0 var(--color-dark);
+
+  --font-family-base: "FrutigerLTW01", sans-serif;
+
+  --container-width-lg: 1280px;
+  --container-width-md: 768px;
+  --container-width-sm: 375px;
+
+  --container-padding-x-lg: 64px;
+  --container-padding-x-md: 32px;
+  --container-padding-x-sm: 16px;
+
+  --section-padding-y-lg: 70px;
+  --section-padding-y-md: 50px;
+  --section-padding-y-sm: 30px;
+
+  --input-height: 50px;
+  --button-height: 60px;
+
+  --transition-duration: 0.25s;
+}
