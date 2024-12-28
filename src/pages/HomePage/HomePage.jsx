@@ -42,6 +42,7 @@ const HomePage = () => {
         <meta name="description" content={head.description} />
         <link rel="icon" href="/favicon.webp" type="image/x-icon" />
         <link rel="canonical" href={head.url} />
+        <title>{head.title}</title>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
